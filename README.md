@@ -10,7 +10,7 @@ Una herramienta de ciberseguridad desarrollada con **Python** y **Streamlit** qu
 - 📋 **Copiado Rápido**: Formato de visualización que permite copiar la contraseña con un solo clic.
 
 ## 🛠️ Tecnologías utilizadas
-- **Python 3.x**
+- **Python 3.14**
 - **Streamlit** (Interfaz de usuario)
 - **Secrets Module** (Seguridad y generación aleatoria)
 - **String Module** (Manejo de caracteres)
