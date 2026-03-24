@@ -1,30 +1,35 @@
-# 🔐 SafePass Gen: Generador de Contraseñas Seguras
+# 🔐 SafePass Gen: Secure Password Generator
 
-Una herramienta de ciberseguridad desarrollada con **Python** y **Streamlit** que permite crear contraseñas robustas utilizando estándares criptográficos avanzados.
+A cybersecurity utility developed with **Python** and **Streamlit** that allows you to create robust passwords using advanced cryptographic standards.
 
-## ✨ Características
-- 🛡️ **Fuerza Criptográfica**: Utiliza el módulo `secrets` de Python para garantizar una aleatoriedad real y segura.
-- ⚙️ **Personalización Total**: Ajusta la longitud (8-32 caracteres) y elige entre mayúsculas, números y símbolos.
-- 📊 **Medidor de Seguridad**: Evaluación en tiempo real de la robustez de la contraseña generada (Nivel Débil, Medio o NASA).
-- 🕒 **Historial de Sesión**: Guarda tus últimas 5 contraseñas generadas durante la sesión actual para que no las pierdas.
-- 📋 **Copiado Rápido**: Formato de visualización que permite copiar la contraseña con un solo clic.
+## ✨ Features
+- 🛡️ **Cryptographic Strength**: Powered by Python's `secrets` module to guarantee true, secure randomness (superior to the standard `random` library).
+- ⚙️ **Full Customization**: Adjust length (8-32 characters) and toggle between uppercase letters, numbers, and symbols.
+- 📊 **Security Meter**: Real-time evaluation of password robustness with feedback levels (Weak, Medium, or NASA-level).
+- 🕒 **Session History**: Keeps track of your last 5 generated passwords during the current session so you don't lose them.
+- 📋 **Quick Copy**: Clean UI formatting that allows for easy password copying.
 
-## 🛠️ Tecnologías utilizadas
-- **Python 3.14**
-- **Streamlit** (Interfaz de usuario)
-- **Secrets Module** (Seguridad y generación aleatoria)
-- **String Module** (Manejo de caracteres)
+## 🛠️ Technologies Used
+- **Python 3.10+**
+- **Streamlit** (User Interface)
+- **Secrets Module** (Security & Random generation)
+- **String Module** (Character set handling)
 
-## 🚀 Instalación y Uso
+## 🚀 Installation and Usage
 
-1. Clonar el repositorio:
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/mrg0995/safepass-gen.git](https://github.com/mrg0995/safepass-gen.git)
 
-2. Instalar las dependencias:
+2. Install dependencies:
    ```bash
    pip install streamlit
   
-3. Ejecutar la aplicación:
+3. Run the application:
    ```bash
    streamlit run password_gen.py
+
+✒️ Author
+Mario Ramírez - mrg0995
+
+"In a world of hackers, be the one with the strongest key." 🔐
